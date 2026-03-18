@@ -16,7 +16,7 @@ const app = express();
 
 app.use(cors({
   // origin: ['http://localhost:5173', 'http://localhost:3000'],
-  origin: ['https://69bb1a7851eba2dbb5778fd7--sweet-mooncake-c1a898.netlify.app/'],
+  origin: ['https://69bb1a7851eba2dbb5778fd7--sweet-mooncake-c1a898.netlify.app/','http://localhost:5173'],
   credentials: true
 }));
 app.use(express.json());
