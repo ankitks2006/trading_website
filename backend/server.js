@@ -33,7 +33,7 @@ app.use('/api/upload', uploadRoutes);
 app.get('/api/health', (req, res) => res.json({ status: 'ok', timestamp: new Date() }));
 app.get('/',(req,res)=>{
   res.send({
-    activestatus:True
+    activestatus:true,
   })
 })
 // Database Connection
