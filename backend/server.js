@@ -15,7 +15,8 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:3000'],
+  // origin: ['http://localhost:5173', 'http://localhost:3000'],
+  origin: ['https://69bb1a7851eba2dbb5778fd7--sweet-mooncake-c1a898.netlify.app/'],
   credentials: true
 }));
 app.use(express.json());
