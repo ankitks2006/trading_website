@@ -31,7 +31,11 @@ app.use('/api/upload', uploadRoutes);
 
 // Health check
 app.get('/api/health', (req, res) => res.json({ status: 'ok', timestamp: new Date() }));
-
+app.get('/',(req,res)=>{
+  res.send({
+    activestatus:True
+  })
+})
 // Database Connection
 mongoose.connect(process.env.MONGO_URI || 'mongodb://localhost:27017/volpebyfx')
   .then(() => {
