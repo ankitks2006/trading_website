@@ -44,7 +44,7 @@ function App() {
       <footer className="glass py-8 mt-12 text-center text-sm text-gray-400">
         <p className="font-display font-semibold text-white mb-1">VolpebyFX</p>
         <p>&copy; {new Date().getFullYear()} VolpebyFX. All rights reserved.</p>
-        <p className="mt-1 text-accent hover:underline cursor-pointer">contact@volpebyfx.com</p>
+        <p className="mt-1 text-accent hover:underline cursor-pointer">contact@volpebyfx.org</p>
       </footer>
     </div>
   );

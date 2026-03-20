@@ -191,7 +191,7 @@ export default function Pricing() {
         className="text-center mt-12 text-gray-400 text-sm"
       >
         <p>All plans include a <span className="text-white">7-day money-back guarantee</span>.</p>
-        <p className="mt-1">Need a team plan? <a href="mailto:contact@volpebyfx.com" className="text-accent hover:underline">Contact us</a>.</p>
+        <p className="mt-1">Need a team plan? <a href="mailto:contact@volpebyfx.org" className="text-accent hover:underline">Contact us</a>.</p>
       </motion.div>
     </div>
   );
